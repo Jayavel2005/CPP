@@ -12,6 +12,10 @@ int main()
     char ch = 'a';
     wchar_t chr = L'A';
 
-    cout << integer << " " << decimal << " " << ch << " " << chr << endl;
+    bool a = true;
+
+    // cout << integer << " " << decimal << " " << ch << " " << chr << endl;
+    cout << sizeof(a) << endl;
+
     return 0;
 }
